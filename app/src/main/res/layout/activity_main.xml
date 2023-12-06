@@ -52,39 +52,17 @@
         android:id="@+id/buttonPanel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
         >
 
         <ImageView
-            android:id="@+id/keypad"
-            android:layout_width="150dp"
-            android:layout_height="150dp"
-            android:src="@drawable/keypad"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="20dp"
-            >
-        </ImageView>
-
-        <ImageView
-            android:id="@+id/start"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:src="@drawable/start_pixel"
-            android:layout_marginTop="50dp"
-            android:layout_marginLeft="115dp"
-            >
-        </ImageView>
-
-        <ImageView
-            android:id="@+id/select"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
-            android:src="@drawable/select_pixel"
-            android:layout_marginTop="100dp"
-            android:layout_marginLeft="-70dp"
+            android:id="@+id/mic"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/block_mic"
             >
 
         </ImageView>
-
 
     </LinearLayout>
 
